@@ -8,7 +8,7 @@ java -jar </some/jar/file/name> will return a message about space aliens.
 
 or
 
-SomeFileName will return a message about space aliens.
+SomeFileName.exe will return a message about space aliens.
 
 2) Demonstrate that the tests run.  You will need to find and install the test framework.  Copy and paste the test failure so we can see that you've run the test.
 
