@@ -1,0 +1,7 @@
+Things you should know:
+
+- there's no .sln files or any such thing like that.  There's just 2 source files.  Ordinarily you'd have projects in the one solution, but I didn't use Visual Studio to make this test code.
+
+The code does build and test under Mono 1.0.
+
+You'll need an appropriate copy of NUnit to run the tests.

@@ -1,0 +1,19 @@
+This is a test to evaluate your technical skills.  It's not unlike work you might do in the field.  Somebody has written some code, with unit tests.  Your job is to help them come up with a reproducable build process.
+
+They've actually got carried away and written the same project twice: once for Java and once for.Net.  You can choose either codebase, as the objectives are the same:
+
+1) Create a build for the project of your choice.  You can use any build tool you like.  You'll be done when the build creates a suitable artifact.  Acceptance tests:
+
+java -jar </some/jar/file/name> will return a message about space aliens.
+
+or
+
+SomeFileName will return a message about space aliens.
+
+2) Demonstrate that the tests run.  You will need to find and install the test framework.  Copy and paste the test failure so we can see that you've run the test.
+
+3) Fix the test.
+
+Regardless of where you get to, send the code.  You can fork it on github, or send a zip file.
+
+There's no correct way of doing this test.  Your results will be individually reviewed.  Good luck!
