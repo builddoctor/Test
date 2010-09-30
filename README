@@ -2,18 +2,18 @@ This is a test to evaluate your technical skills.  It's not unlike work you migh
 
 They've actually got carried away and written the same project twice: once for Java and once for.Net.  You can choose either codebase, as the objectives are the same:
 
-1) Create a build for the project of your choice.  You can use any build tool you like.  You'll be done when the build creates a suitable artifact.  Acceptance tests:
+1) Create a build for the project of your choice.  There's some hints (e.g. which build tool you might use) on the README for each project.  You'll be done when the build creates a suitable artifact.  Acceptance tests:
 
-java -jar </some/jar/file/name> will return a message about space aliens.
+Runnnig java -jar </some/jar/file/name> will return a message about space aliens. (if you choose to do the Java test)
 
-or
+OR
 
-SomeFileName.exe will return a message about space aliens.
+Running SomeFileName.exe from a Command Prompt will return a message about space aliens. (if you choose to do .NET)
 
-2) Demonstrate that the tests run.  You will need to find and install the test framework.  Copy and paste the test failure so we can see that you've run the test.
+2) Demonstrate that the unit test runs.  You will need to find and install the test framework. Again, there are notes on the README in the test folder.  Copy and paste the test output so we can see that you've run the test.
 
-3) Fix the test.
+3) Fix the unit test.
 
-Regardless of where you get to, send the code.  You can fork it on github, or send a zip file.
+Regardless of where you get to, send us a zip file with your completed solution.  There's no need to use GitHub once you've downloaded the test material (click on the 'Download Source' button on the top right).
 
-There's no correct way of doing this test.  Your results will be individually reviewed.  Good luck!
+There's no right or wrong way of doing this test.  If you can complete the test, we'll have a look at your solution and then we might have a chat about things.

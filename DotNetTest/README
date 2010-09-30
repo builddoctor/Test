@@ -1,7 +1,9 @@
 Things you should know:
 
-- there's no .sln files or any such thing like that.  There's just 2 source files.  Ordinarily you'd have projects in the one solution, but I didn't use Visual Studio to make this test code.
+- there's no .sln files or any such thing like that.  There's just 2 source files.  Ordinarily you'd have 2 projects in the one solution: a Core project that contains the business code, and a Test project that contained the tests.  I didn't use Visual Studio to make this test code, so there was little point.
 
-The code does build and test under Mono 1.0.
+If you're unsure about the build tool to use, try NAnt.
 
-You'll need an appropriate copy of NUnit to run the tests.
+You'll need an appropriate copy of NUnit to run the tests (see http://nunit.org/index.php?p=download).  You'll probably be fine with a .NET 2 DLL for NUnit. We can't tell you which one to choose because you get to choose versions of .NET to run.
+The code does build and test under Mono.
+
