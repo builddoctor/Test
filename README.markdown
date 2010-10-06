@@ -6,7 +6,7 @@ They've actually got carried away and written the same project twice: once for J
 
   * there is a suitable buildfile for us to review
 
-  * Running *java -jar</the/jar/that/your/build/just/made.jar* will return a message about space aliens. (if you choose to do the Java test)
+  * Running *java -jar /the/jar/that/your/build/just/made.jar* will return a message about space aliens. (if you choose to do the Java test)
 
 OR
 
