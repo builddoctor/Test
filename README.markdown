@@ -5,13 +5,14 @@ They've actually got carried away and written the same project twice: once for J
 1) Create a build for the project of your choice.  There's some hints (e.g. which build tool you might use) on the README for each project.  You'll be done when the build creates a suitable artifact.  Acceptance tests:
 
   * there is a suitable buildfile for us to review
-  * Running java -jar </some/jar/file/name> will return a message about space aliens. (if you choose to do the Java test)
+
+  * Running *java -jar</the/jar/that/your/build/just/made.jar* will return a message about space aliens. (if you choose to do the Java test)
 
 OR
 
   * Running SomeFileName.exe from a Command Prompt will return a message about space aliens. (if you choose to do .NET)
 
-2) Demonstrate that the unit test runs.  You will need to find and install the test framework. Again, there are notes on the README in the test folder.  What matters is that the buildfile that you supply is *will run the unit tests*.  We love it that you can run the unit tests in your IDE, but it's not enough.
+2) Demonstrate that the unit test runs.  You will need to find and install the test framework. Again, there are notes on the README in the test folder.  What matters is that the buildfile that you supply *will run the unit tests*.  We love it that you can run the unit tests in your IDE, but it's not enough.
 
 3) Fix the unit test.
 
